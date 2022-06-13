@@ -1,0 +1,51 @@
+body{
+    background-color: cornsilk;
+    font-family:monospace;
+    margin: auto;
+    height: auto;
+    text-align: left;
+}
+header, footer{
+    background-color: orange;
+}
+nav{
+    background-color: goldenrod;
+    color:beige;
+    float: left;
+}
+header{
+    top: 0;
+}
+
+section{
+    width: auto;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li{
+    position: relative;
+
+}
+.submenu{
+    list-style: none;
+    position: absolute;
+    top:0;
+    display: none;
+}
+.menu li a{
+    display: block;
+    text-decoration: none;
+    color:green;
+    background: greenyellow;
+}
+li:hover ul{
+    display: block;
+}
+.menu li a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+    background: beige;
+}
