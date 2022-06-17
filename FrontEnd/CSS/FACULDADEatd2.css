@@ -1,0 +1,49 @@
+
+
+body{
+    margin: 1%;
+}
+header{
+    padding:1%;
+  }
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+.primary_nav li{
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+  }
+ul li:before {
+	content: "-";
+	position: absolute;
+	left: 0;
+}
+.primary_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top:0;
+}
+.primary_nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.85em 1em;
+    text-decoration: none;
+}
+
+.me{
+  height: 20%;
+  width: 20%;
+  float: left;
+}
+.descrição{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
